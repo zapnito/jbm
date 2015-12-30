@@ -16,6 +16,7 @@ class ChangesController < ApplicationController
 		send_request(body(codes.fetch(:green)))
   	end
 
+    render :nothing => true
   end
 
   private
